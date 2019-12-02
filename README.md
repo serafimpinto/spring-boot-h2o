@@ -2,7 +2,7 @@
 Productionizing H2O with Spring Boot
 
 # Tools used for this sample project
-* IntelliJ
+* IntelliJ IDEA
 * Java 8
 * Maven
 
