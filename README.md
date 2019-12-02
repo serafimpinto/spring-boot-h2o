@@ -16,7 +16,7 @@ Using your IDE:
 Using the .jar: 
 - `java -jar target/spring-boot-h2o-0.0.1-SNAPSHOT.jar`
 
-REST API running at http://localhost:9090/
+H2O REST API running at http://localhost:9090/
 
 # Score
 #### H2O Titanic Service
@@ -38,4 +38,11 @@ curl --request POST \
 	"body": 0.0,
 	"homeDest": "Zurich  Switzerland"
 }'
+```
+
+#### Response
+```
+{
+  "survived": true
+}
 ```
