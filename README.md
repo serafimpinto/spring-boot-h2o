@@ -7,11 +7,15 @@ Productionizing H2O with Spring Boot
 * Maven
 
 # Build
-`mvn clean install`
+```sh
+mvn clean install
+```
 
 # Run
 Using your IDE:
 - run `main()` in `net.performetric.h2o.H2OApplication.java`
+
+OR
 
 Using the .jar: 
 - `java -jar target/spring-boot-h2o-0.0.1-SNAPSHOT.jar`
@@ -20,7 +24,7 @@ H2O REST API running at http://localhost:9090/
 
 # Score
 #### H2O Titanic Service
-```
+```sh
 curl --request POST \
   --url http://localhost:9090/h2o/titanic/score \
   --header 'content-type: application/json' \
@@ -41,7 +45,7 @@ curl --request POST \
 ```
 
 #### Response
-```
+```json 
 {
   "survived": true
 }
